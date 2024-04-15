@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("MEEE.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hONE {
+	color: #f9f6f6;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#Imgone {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#L1 {
+    color: white;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#INP {
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#B1,
+#B2 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#B1:hover,
+#B2:hover {
+    background-color: #0056b3;
+}
+
+#TXT {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 50px;
+    }
+
+    #hONE {
+        font-size: 3em;
+    }
+
+    #Imgone {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    ul li {
+        margin-right: 20px;
+    }
+
+    #INP {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    #B1,
+    #B2 {
+        padding: 12px 24px;
+        font-size: 1.2em;
+    }
+
+    #TXT {
+        width: 90%;
+        max-width: 500px;
+    }
+}
